@@ -1,12 +1,12 @@
 
 # NYTimesApp `SwiftUI`
-A SwiftUI Apps for showing Most Popular Articles from NYTimes API. It's backend has written in Swift with MVVM architecture.
+A SwiftUI App for showing Most Popular Articles from NYTimes API. It's backend has written in Swift with MVVM architecture.
 
 ## Directory Structure
 - #### ViewModels
     - It encapsulates all the business logic
     - It is dependent on `Models` to perform any operation
-    - It has published properties for UI where UI can listen to the changes on the model.
+    - It has published properties for UI, where UI can listen to the changes on the model.
 
 - #### Model
     - It is the interactor layer between `ViewModels` and `Services`
