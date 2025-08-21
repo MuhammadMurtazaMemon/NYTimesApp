@@ -2,6 +2,12 @@
 # NYTimesApp `SwiftUI`
 A SwiftUI App for showing Most Popular Articles from NYTimes API. It's backend has written in Swift with MVVM architecture.
 
+## Features
+- Fetch NY Times most popular articles (default 7-day period), can be change by passing period value to view model. Accepted period values are 1, 7 and 30
+- Display articles in list
+- Show details on tap
+- Unit tests for ViewModel
+
 ## Directory Structure
 - #### ViewModels
     - It encapsulates all the business logic
