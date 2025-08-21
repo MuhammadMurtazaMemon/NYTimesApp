@@ -34,7 +34,7 @@ A SwiftUI App for showing Most Popular Articles from NYTimes API. It's backend h
 ## Requirements
 
 - iOS 16.0+
-- Xcode 14.2+
+- Xcode 16.0+
 
 ## Meta
 
